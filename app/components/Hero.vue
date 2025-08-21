@@ -64,19 +64,19 @@ onMounted(() => {
       </div>
 
       <div class="relative z-10 text-center text-white flex-1">
-        <h1 class="text-4xl md:text-[72px] font-extrabold leading-tight">
+        <h1 class="text-2xl md:text-[50px] font-extrabold leading-tight">
           Цифровые решения,<br />
           которые помогают вашему <br />
           бизнесу расти быстрее
         </h1>
 
-        <div class="mt-8 flex justify-center gap-4">
+        <div class="mt-8 md:flex justify-center grid md:grid-cols-2 gap-4">
           <button
-            class="px-6 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-all duration-300">
+            class="md:px-6 px-2 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-all duration-300">
             Наши проекты
           </button>
           <button
-            class="px-6 py-3 bg-transparent border border-white rounded-full font-semibold hover:bg-white hover:text-black transition-all duration-300">
+            class="md:px-6 px-2 py-3 bg-transparent border border-white rounded-full font-semibold hover:bg-white hover:text-black transition-all duration-300">
             Связаться
           </button>
         </div>
