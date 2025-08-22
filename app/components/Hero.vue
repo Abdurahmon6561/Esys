@@ -46,7 +46,7 @@ onMounted(() => {
     style="background-image: url('/images/bg-hero.jpg')">
     <div class="flex justify-between w-full items-center h-screen">
       <!-- left side -->
-      <div id="leftSide" class="relative h-[50%] w-28">
+      <div id="leftSide" class="relative h-[50%] w-28 hidden md:block">
         <svg class="absolute inset-0 w-full h-full">
           <defs>
             <clipPath id="clipLeft" clipPathUnits="objectBoundingBox">
@@ -83,7 +83,7 @@ onMounted(() => {
       </div>
 
       <!-- right side -->
-      <div id="rightSide" class="relative h-[50%] w-28">
+      <div id="rightSide" class="relative h-[50%] w-28 hidden md:block">
         <svg class="absolute inset-0 w-full h-full">
           <defs>
             <clipPath id="clipRight" clipPathUnits="objectBoundingBox">
