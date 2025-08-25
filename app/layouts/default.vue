@@ -64,19 +64,19 @@ onMounted(() => {
             <nav>
               <ul class="md:flex hidden gap-8 text-white font-medium">
                 <li>
-                  <NuxtLink to="/"
+                  <NuxtLink to="#"
                     class="relative after:content-[''] pb-1 after:absolute after:left-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
                     Компания
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/about"
+                  <NuxtLink to="#"
                     class="relative after:content-[''] pb-1 after:absolute after:left-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
                     Проекты
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/blog"
+                  <NuxtLink to="#"
                     class="relative after:content-[''] pb-1 after:absolute after:left-1/2 after:bottom-0 after:h-[2px] after:w-0 after:bg-white after:transition-all after:duration-300 after:-translate-x-1/2 hover:after:w-full">
                     Блог
                   </NuxtLink>
