@@ -7,4 +7,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+    nitro: {
+    prerender: {
+      crawlLinks: true, 
+      routes: ['/'],
+      ignore: ['/api'] 
+    }
+  }
 })
