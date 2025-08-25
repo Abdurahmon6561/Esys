@@ -118,7 +118,7 @@ onMounted(() => {
             <!-- Mobile Menu -->
             <div class="md:hidden">
               <button @click="open = !open" class="text-white">
-                <img src="/images/hamburger.svg" alt="menu" />
+                <!-- <img src="/images/hamburger.svg" alt="menu" /> -->
               </button>
             </div>
 

@@ -37,7 +37,7 @@ const next = () => {
 <div class="p-6 bg-[#ededed] rounded-xl">
         <div class="flex items-center justify-center min-h-screen bg-cover bg-center rounded-xl"
         style="background-image: url('/images/bg-avatar.jpg')">
-        <div class="w-[576px]">
+        <div class="md:w-[576px] p-8 md:p-0">
             <div class="bg-white rounded-2xl shadow-md p-8 text-center relative">
                 <div class="flex justify-center -mt-20 mb-4">
                     <img :src="testimonials[current].avatar" alt="avatar"

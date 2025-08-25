@@ -62,10 +62,10 @@
                     Создаём цифровые продукты, которые <br />
                     выделяют вас на рынке и приводят клиентов
                 </h2>
-                <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <div class=" flex flex-wrap justify-center   gap-[32px] mt-12">
                     <!-- Cards -->
                     <div v-for="(card, i) in cards" :key="i" ref="cardsRef" :class="[
-                        'relative rounded-xl overflow-hidden shadow-xl md:h-[501px] hover:scale-105 duration-700 opacity-0 transform transition-all',
+                        'relative rounded-xl overflow-hidden shadow-xl md:h-[501px] md:w-[656px] hover:scale-105 duration-700 opacity-0 transform transition-all',
                         i % 2 === 0 ? 'translate-x-[-100px]' : 'translate-x-[100px]',
                     ]">
                         <img :src="card.image" alt="Project" class="w-full h-full object-cover" />
@@ -80,7 +80,7 @@
 
                         <!-- Bottom Box -->
                         <div
-                            class="absolute bottom-6 left-3 right-3 bg-white rounded-xl shadow p-4 flex items-center justify-between">
+                            class="absolute bottom-6 left-[20px] right-[20px] bg-white rounded-xl shadow p-4 md:w-[608px] md:h-[89px] flex items-center justify-between">
                             <div>
                                 <h3 class="text-[24px] font-medium">{{ card.title }}</h3>
                                 <p class="text-sm text-gray-600">

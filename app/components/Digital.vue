@@ -67,7 +67,7 @@ onMounted(() => {
                         </div>
 
                         <!-- Bottom Box -->
-                        <button
+                        <div
                             class="absolute bottom-3 left-3 max-h-[46px] right-3 bg-white rounded-[8px] shadow p-2 flex items-center justify-between">
                             <div>
                                 <h3 class="text-[15.25px] font-medium">{{ card.title }}</h3>
@@ -79,7 +79,7 @@ onMounted(() => {
                                         d="M9 5l7 7-7 7" />
                                 </svg>
                             </button>
-                        </button>
+                        </div>
                     </div>
                 </div>
             </div>
